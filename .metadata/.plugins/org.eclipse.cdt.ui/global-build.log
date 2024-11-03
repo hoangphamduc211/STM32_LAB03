@@ -1,0 +1,1667 @@
+17:36:38 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j16 all 
+arm-none-eabi-size   Lab2.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8536	     20	   1660	  10216	   27e8	Lab2.elf
+Finished building: default.size.stdout
+ 
+17:37:41 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Git\Github_folder\STM32_LAB02\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+   text	   data	    bss	    dec	    hex	filename
+   7612	     44	   1660	   9316	   2464	Lab2.elf
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab2.hex
+Finished building: Lab2.bin
+ 
+Finished building: Lab2.list
+ 
+ 
+17:39:12 **** Incremental Build of configuration Debug for project Lab3 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/button.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/button.d" -MT"Core/Src/button.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/button.o"
+arm-none-eabi-gcc -o "Lab3.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Git\Github_folder\STM32_LAB03\Lab3\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab3.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab3.elf
+ 
+arm-none-eabi-size   Lab3.elf 
+arm-none-eabi-objdump -h -S  Lab3.elf  > "Lab3.list"
+arm-none-eabi-objcopy  -O ihex  Lab3.elf  "Lab3.hex"
+   text	   data	    bss	    dec	    hex	filename
+   9388	     20	   1732	  11140	   2b84	Lab3.elf
+arm-none-eabi-objcopy  -O binary  Lab3.elf  "Lab3.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab3.hex
+Finished building: Lab3.bin
+ 
+Finished building: Lab3.list
+ 
+ 
+17:39:25 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j16 all 
+arm-none-eabi-size   Lab2.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7612	     44	   1660	   9316	   2464	Lab2.elf
+Finished building: default.size.stdout
+ 
+17:40:16 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j16 all 
+arm-none-eabi-size   Lab2.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7612	     44	   1660	   9316	   2464	Lab2.elf
+Finished building: default.size.stdout
+ 
+17:41:03 **** Incremental Build of configuration Debug for project Lab2 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab2.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Git\Github_folder\STM32_LAB02\Lab2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab2.elf
+ 
+arm-none-eabi-size   Lab2.elf 
+arm-none-eabi-objdump -h -S  Lab2.elf  > "Lab2.list"
+arm-none-eabi-objcopy  -O ihex  Lab2.elf  "Lab2.hex"
+   text	   data	    bss	    dec	    hex	filename
+   8536	     20	   1660	  10216	   27e8	Lab2.elf
+arm-none-eabi-objcopy  -O binary  Lab2.elf  "Lab2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab2.hex
+Finished building: Lab2.bin
+ 
+Finished building: Lab2.list
+ 
+ 
+15:15:24 **** Build of configuration Debug for project Lab3 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/time_set.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/time_set.d" -MT"Core/Src/time_set.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/time_set.o"
+arm-none-eabi-gcc -o "Lab3.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Git\Github_folder\STM32_LAB03\Lab3\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab3.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab3.elf
+ 
+arm-none-eabi-size   Lab3.elf 
+arm-none-eabi-objdump -h -S  Lab3.elf  > "Lab3.list"
+arm-none-eabi-objcopy  -O ihex  Lab3.elf  "Lab3.hex"
+arm-none-eabi-objcopy  -O binary  Lab3.elf  "Lab3.bin"
+   text	   data	    bss	    dec	    hex	filename
+  10996	     52	   1748	  12796	   31fc	Lab3.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab3.list
+ 
+Finished building: Lab3.bin
+Finished building: Lab3.hex
+ 
+ 
+15:16:35 **** Incremental Build of configuration Debug for project Lab3 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/time_set.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/time_set.d" -MT"Core/Src/time_set.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/time_set.o"
+arm-none-eabi-gcc -o "Lab3.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Git\Github_folder\STM32_LAB03\Lab3\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab3.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab3.elf
+ 
+arm-none-eabi-size   Lab3.elf 
+arm-none-eabi-objdump -h -S  Lab3.elf  > "Lab3.list"
+arm-none-eabi-objcopy  -O ihex  Lab3.elf  "Lab3.hex"
+   text	   data	    bss	    dec	    hex	filename
+  10996	     52	   1748	  12796	   31fc	Lab3.elf
+arm-none-eabi-objcopy  -O binary  Lab3.elf  "Lab3.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab3.hex
+Finished building: Lab3.bin
+ 
+Finished building: Lab3.list
+ 
+ 
+09:30:27 **** Clean-only build of configuration Debug for project Lab_ex ****
+make -j16 clean 
+rm -rf  Lab_ex.hex  default.size.stdout  Lab_ex.list  Lab_ex.elf  ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o  ./Core/Startup/startup_stm32f103rbtx.o  ./Core/Src/main.o ./Core/Src/stm32f1xx_hal_msp.o ./Core/Src/stm32f1xx_it.o ./Core/Src/syscalls.o ./Core/Src/sysmem.o ./Core/Src/system_stm32f1xx.o  ./Core/Startup/startup_stm32f103rbtx.d  ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.d  ./Core/Src/main.d ./Core/Src/stm32f1xx_hal_msp.d ./Core/Src/stm32f1xx_it.d ./Core/Src/syscalls.d ./Core/Src/sysmem.d ./Core/Src/system_stm32f1xx.d  Lab_ex.bin  Lab_ex.elf
+ 
+09:30:27 **** Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o"
+arm-none-eabi-gcc -mcpu=cortex-m3 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f103rbtx.d" -MT"Core/Startup/startup_stm32f103rbtx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Startup/startup_stm32f103rbtx.o" "../Core/Startup/startup_stm32f103rbtx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32f1xx.d" -MT"Core/Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f1xx.o"
+arm-none-eabi-gcc -o "Lab_ex.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32CubeIDE_1.7.0\Lab_ex\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab_ex.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab_ex.elf
+ 
+arm-none-eabi-size   Lab_ex.elf 
+arm-none-eabi-objdump -h -S  Lab_ex.elf  > "Lab_ex.list"
+arm-none-eabi-objcopy  -O ihex  Lab_ex.elf  "Lab_ex.hex"
+arm-none-eabi-objcopy  -O binary  Lab_ex.elf  "Lab_ex.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5780	     20	   1644	   7444	   1d14	Lab_ex.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab_ex.list
+ 
+Finished building: Lab_ex.bin
+Finished building: Lab_ex.hex
+ 
+ 
+09:31:08 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-size   Lab_ex.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5780	     20	   1644	   7444	   1d14	Lab_ex.elf
+Finished building: default.size.stdout
+ 
+09:32:45 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-size   Lab_ex.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5780	     20	   1644	   7444	   1d14	Lab_ex.elf
+Finished building: default.size.stdout
+ 
+09:34:12 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab_ex.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32CubeIDE_1.7.0\Lab_ex\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab_ex.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab_ex.elf
+ 
+arm-none-eabi-size   Lab_ex.elf 
+arm-none-eabi-objdump -h -S  Lab_ex.elf  > "Lab_ex.list"
+arm-none-eabi-objcopy  -O ihex  Lab_ex.elf  "Lab_ex.hex"
+   text	   data	    bss	    dec	    hex	filename
+   5780	     20	   1644	   7444	   1d14	Lab_ex.elf
+arm-none-eabi-objcopy  -O binary  Lab_ex.elf  "Lab_ex.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab_ex.bin
+Finished building: Lab_ex.hex
+ 
+ 
+Finished building: Lab_ex.list
+ 
+09:34:17 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-size   Lab_ex.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5780	     20	   1644	   7444	   1d14	Lab_ex.elf
+Finished building: default.size.stdout
+ 
+09:44:01 **** Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o"
+arm-none-eabi-gcc "../Core/Src/button.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/button.d" -MT"Core/Src/button.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/button.o"
+arm-none-eabi-gcc "../Core/Src/global.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/global.d" -MT"Core/Src/global.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/global.o"
+../Core/Src/global.c: In function 'display7SEG':
+../Core/Src/global.c:19:21: error: 'SEG_A_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   19 |   HAL_GPIO_WritePin(SEG_A_GPIO_Port , SEG_A_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:19:21: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/global.c:19:39: error: 'SEG_A_Pin' undeclared (first use in this function)
+   19 |   HAL_GPIO_WritePin(SEG_A_GPIO_Port , SEG_A_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/button.c: In function 'buttonReading':
+../Core/Src/button.c:36:40: error: 'button1_GPIO_Port' undeclared (first use in this function)
+   36 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button1_GPIO_Port, button1_Pin);
+      |                                        ^~~~~~~~~~~~~~~~~
+../Core/Src/button.c:36:40: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/button.c:36:59: error: 'button1_Pin' undeclared (first use in this function)
+   36 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button1_GPIO_Port, button1_Pin);
+      |                                                           ^~~~~~~~~~~
+../Core/Src/global.c:20:21: error: 'SEG_B_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   20 |   HAL_GPIO_WritePin(SEG_B_GPIO_Port , SEG_B_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:20:39: error: 'SEG_B_Pin' undeclared (first use in this function)
+   20 |   HAL_GPIO_WritePin(SEG_B_GPIO_Port , SEG_B_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/button.c:59:40: error: 'button2_GPIO_Port' undeclared (first use in this function)
+   59 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button2_GPIO_Port, button2_Pin);
+      |                                        ^~~~~~~~~~~~~~~~~
+../Core/Src/global.c:21:21: error: 'SEG_C_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   21 |   HAL_GPIO_WritePin(SEG_C_GPIO_Port , SEG_C_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:21:39: error: 'SEG_C_Pin' undeclared (first use in this function)
+   21 |   HAL_GPIO_WritePin(SEG_C_GPIO_Port , SEG_C_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/button.c:59:59: error: 'button2_Pin' undeclared (first use in this function)
+   59 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button2_GPIO_Port, button2_Pin);
+      |                                                           ^~~~~~~~~~~
+../Core/Src/global.c:22:21: error: 'SEG_D_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   22 |   HAL_GPIO_WritePin(SEG_D_GPIO_Port , SEG_D_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:22:39: error: 'SEG_D_Pin' undeclared (first use in this function)
+   22 |   HAL_GPIO_WritePin(SEG_D_GPIO_Port , SEG_D_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/button.c:82:40: error: 'button3_GPIO_Port' undeclared (first use in this function)
+   82 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button3_GPIO_Port, button3_Pin);
+      |                                        ^~~~~~~~~~~~~~~~~
+../Core/Src/button.c:82:59: error: 'button3_Pin' undeclared (first use in this function)
+   82 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button3_GPIO_Port, button3_Pin);
+      |                                                           ^~~~~~~~~~~
+../Core/Src/global.c:23:21: error: 'SEG_E_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   23 |   HAL_GPIO_WritePin(SEG_E_GPIO_Port , SEG_E_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:23:39: error: 'SEG_E_Pin' undeclared (first use in this function)
+   23 |   HAL_GPIO_WritePin(SEG_E_GPIO_Port , SEG_E_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c:24:21: error: 'SEG_F_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   24 |   HAL_GPIO_WritePin(SEG_F_GPIO_Port , SEG_F_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:24:39: error: 'SEG_F_Pin' undeclared (first use in this function)
+   24 |   HAL_GPIO_WritePin(SEG_F_GPIO_Port , SEG_F_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:43: Core/Src/button.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/global.c:25:21: error: 'SEG_G_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   25 |   HAL_GPIO_WritePin(SEG_G_GPIO_Port , SEG_G_Pin, GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:25:39: error: 'SEG_G_Pin' undeclared (first use in this function)
+   25 |   HAL_GPIO_WritePin(SEG_G_GPIO_Port , SEG_G_Pin, GPIO_PIN_SET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c: In function 'displayNum':
+../Core/Src/global.c:126:21: error: 'EN0_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  126 |   HAL_GPIO_WritePin(EN0_GPIO_Port, EN0_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:126:36: error: 'EN0_Pin' undeclared (first use in this function)
+  126 |   HAL_GPIO_WritePin(EN0_GPIO_Port, EN0_Pin, GPIO_PIN_RESET);
+      |                                    ^~~~~~~
+../Core/Src/global.c:127:21: error: 'EN1_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  127 |   HAL_GPIO_WritePin(EN1_GPIO_Port , EN1_Pin , GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:127:37: error: 'EN1_Pin' undeclared (first use in this function)
+  127 |   HAL_GPIO_WritePin(EN1_GPIO_Port , EN1_Pin , GPIO_PIN_SET);
+      |                                     ^~~~~~~
+../Core/Src/global.c:128:21: error: 'EN2_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  128 |   HAL_GPIO_WritePin(EN2_GPIO_Port , EN2_Pin , GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:128:37: error: 'EN2_Pin' undeclared (first use in this function)
+  128 |   HAL_GPIO_WritePin(EN2_GPIO_Port , EN2_Pin , GPIO_PIN_SET);
+      |                                     ^~~~~~~
+../Core/Src/global.c:129:21: error: 'EN3_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  129 |   HAL_GPIO_WritePin(EN3_GPIO_Port , EN3_Pin , GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:129:37: error: 'EN3_Pin' undeclared (first use in this function)
+  129 |   HAL_GPIO_WritePin(EN3_GPIO_Port , EN3_Pin , GPIO_PIN_SET);
+      |                                     ^~~~~~~
+make: *** [Core/Src/subdir.mk:43: Core/Src/global.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+09:44:02 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/button.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/button.d" -MT"Core/Src/button.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/button.o"
+arm-none-eabi-gcc "../Core/Src/global.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/global.d" -MT"Core/Src/global.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/global.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32f1xx.d" -MT"Core/Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f1xx.o"
+arm-none-eabi-gcc "../Core/Src/time_set.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/time_set.d" -MT"Core/Src/time_set.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/time_set.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:107:25: error: expected ';' before '{' token
+  107 |       isButtonPressed(1)
+      |                         ^
+      |                         ;
+  108 |   {
+      |   ~                      
+../Core/Src/main.c:104:10: warning: unused variable 'led_status' [-Wunused-variable]
+  104 |      int led_status = RED;
+      |          ^~~~~~~~~~
+../Core/Src/main.c:101:7: warning: unused variable 'counter' [-Wunused-variable]
+  101 |   int counter = 0;
+      |       ^~~~~~~
+../Core/Src/button.c: In function 'buttonReading':
+../Core/Src/button.c:36:40: error: 'button1_GPIO_Port' undeclared (first use in this function)
+   36 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button1_GPIO_Port, button1_Pin);
+      |                                        ^~~~~~~~~~~~~~~~~
+../Core/Src/button.c:36:40: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/button.c:36:59: error: 'button1_Pin' undeclared (first use in this function)
+   36 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button1_GPIO_Port, button1_Pin);
+      |                                                           ^~~~~~~~~~~
+../Core/Src/global.c: In function 'display7SEG':
+../Core/Src/global.c:19:21: error: 'SEG_A_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   19 |   HAL_GPIO_WritePin(SEG_A_GPIO_Port , SEG_A_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:19:21: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/global.c:19:39: error: 'SEG_A_Pin' undeclared (first use in this function)
+   19 |   HAL_GPIO_WritePin(SEG_A_GPIO_Port , SEG_A_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:43: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/global.c:20:21: error: 'SEG_B_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   20 |   HAL_GPIO_WritePin(SEG_B_GPIO_Port , SEG_B_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/button.c:59:40: error: 'button2_GPIO_Port' undeclared (first use in this function)
+   59 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button2_GPIO_Port, button2_Pin);
+      |                                        ^~~~~~~~~~~~~~~~~
+../Core/Src/global.c:20:39: error: 'SEG_B_Pin' undeclared (first use in this function)
+   20 |   HAL_GPIO_WritePin(SEG_B_GPIO_Port , SEG_B_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/button.c:59:59: error: 'button2_Pin' undeclared (first use in this function)
+   59 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button2_GPIO_Port, button2_Pin);
+      |                                                           ^~~~~~~~~~~
+../Core/Src/global.c:21:21: error: 'SEG_C_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   21 |   HAL_GPIO_WritePin(SEG_C_GPIO_Port , SEG_C_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:21:39: error: 'SEG_C_Pin' undeclared (first use in this function)
+   21 |   HAL_GPIO_WritePin(SEG_C_GPIO_Port , SEG_C_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/button.c:82:40: error: 'button3_GPIO_Port' undeclared (first use in this function)
+   82 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button3_GPIO_Port, button3_Pin);
+      |                                        ^~~~~~~~~~~~~~~~~
+../Core/Src/button.c:82:59: error: 'button3_Pin' undeclared (first use in this function)
+   82 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button3_GPIO_Port, button3_Pin);
+      |                                                           ^~~~~~~~~~~
+../Core/Src/global.c:22:21: error: 'SEG_D_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   22 |   HAL_GPIO_WritePin(SEG_D_GPIO_Port , SEG_D_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:22:39: error: 'SEG_D_Pin' undeclared (first use in this function)
+   22 |   HAL_GPIO_WritePin(SEG_D_GPIO_Port , SEG_D_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:43: Core/Src/button.o] Error 1
+../Core/Src/global.c:23:21: error: 'SEG_E_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   23 |   HAL_GPIO_WritePin(SEG_E_GPIO_Port , SEG_E_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:23:39: error: 'SEG_E_Pin' undeclared (first use in this function)
+   23 |   HAL_GPIO_WritePin(SEG_E_GPIO_Port , SEG_E_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c:24:21: error: 'SEG_F_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   24 |   HAL_GPIO_WritePin(SEG_F_GPIO_Port , SEG_F_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:24:39: error: 'SEG_F_Pin' undeclared (first use in this function)
+   24 |   HAL_GPIO_WritePin(SEG_F_GPIO_Port , SEG_F_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c:25:21: error: 'SEG_G_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   25 |   HAL_GPIO_WritePin(SEG_G_GPIO_Port , SEG_G_Pin, GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:25:39: error: 'SEG_G_Pin' undeclared (first use in this function)
+   25 |   HAL_GPIO_WritePin(SEG_G_GPIO_Port , SEG_G_Pin, GPIO_PIN_SET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c: In function 'displayNum':
+../Core/Src/global.c:126:21: error: 'EN0_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  126 |   HAL_GPIO_WritePin(EN0_GPIO_Port, EN0_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:126:36: error: 'EN0_Pin' undeclared (first use in this function)
+  126 |   HAL_GPIO_WritePin(EN0_GPIO_Port, EN0_Pin, GPIO_PIN_RESET);
+      |                                    ^~~~~~~
+../Core/Src/global.c:127:21: error: 'EN1_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  127 |   HAL_GPIO_WritePin(EN1_GPIO_Port , EN1_Pin , GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:127:37: error: 'EN1_Pin' undeclared (first use in this function)
+  127 |   HAL_GPIO_WritePin(EN1_GPIO_Port , EN1_Pin , GPIO_PIN_SET);
+      |                                     ^~~~~~~
+../Core/Src/global.c:128:21: error: 'EN2_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  128 |   HAL_GPIO_WritePin(EN2_GPIO_Port , EN2_Pin , GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:128:37: error: 'EN2_Pin' undeclared (first use in this function)
+  128 |   HAL_GPIO_WritePin(EN2_GPIO_Port , EN2_Pin , GPIO_PIN_SET);
+      |                                     ^~~~~~~
+../Core/Src/global.c:129:21: error: 'EN3_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  129 |   HAL_GPIO_WritePin(EN3_GPIO_Port , EN3_Pin , GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:129:37: error: 'EN3_Pin' undeclared (first use in this function)
+  129 |   HAL_GPIO_WritePin(EN3_GPIO_Port , EN3_Pin , GPIO_PIN_SET);
+      |                                     ^~~~~~~
+make: *** [Core/Src/subdir.mk:43: Core/Src/global.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+09:44:19 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/button.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/button.d" -MT"Core/Src/button.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/button.o"
+arm-none-eabi-gcc "../Core/Src/global.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/global.d" -MT"Core/Src/global.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/global.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:107:25: error: expected ';' before '{' token
+  107 |       isButtonPressed(1)
+      |                         ^
+      |                         ;
+  108 |   {
+      |   ~                      
+../Core/Src/main.c:104:10: warning: unused variable 'led_status' [-Wunused-variable]
+  104 |      int led_status = RED;
+      |          ^~~~~~~~~~
+../Core/Src/main.c:101:7: warning: unused variable 'counter' [-Wunused-variable]
+  101 |   int counter = 0;
+      |       ^~~~~~~
+../Core/Src/button.c: In function 'buttonReading':
+../Core/Src/global.c: In function 'display7SEG':
+../Core/Src/button.c:36:40: error: 'button1_GPIO_Port' undeclared (first use in this function)
+   36 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button1_GPIO_Port, button1_Pin);
+      |                                        ^~~~~~~~~~~~~~~~~
+../Core/Src/button.c:36:40: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/global.c:19:21: error: 'SEG_A_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   19 |   HAL_GPIO_WritePin(SEG_A_GPIO_Port , SEG_A_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:19:21: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/button.c:36:59: error: 'button1_Pin' undeclared (first use in this function)
+   36 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button1_GPIO_Port, button1_Pin);
+      |                                                           ^~~~~~~~~~~
+../Core/Src/global.c:19:39: error: 'SEG_A_Pin' undeclared (first use in this function)
+   19 |   HAL_GPIO_WritePin(SEG_A_GPIO_Port , SEG_A_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:43: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/global.c:20:21: error: 'SEG_B_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   20 |   HAL_GPIO_WritePin(SEG_B_GPIO_Port , SEG_B_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/button.c:59:40: error: 'button2_GPIO_Port' undeclared (first use in this function)
+   59 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button2_GPIO_Port, button2_Pin);
+      |                                        ^~~~~~~~~~~~~~~~~
+../Core/Src/global.c:20:39: error: 'SEG_B_Pin' undeclared (first use in this function)
+   20 |   HAL_GPIO_WritePin(SEG_B_GPIO_Port , SEG_B_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/button.c:59:59: error: 'button2_Pin' undeclared (first use in this function)
+   59 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button2_GPIO_Port, button2_Pin);
+      |                                                           ^~~~~~~~~~~
+../Core/Src/global.c:21:21: error: 'SEG_C_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   21 |   HAL_GPIO_WritePin(SEG_C_GPIO_Port , SEG_C_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:21:39: error: 'SEG_C_Pin' undeclared (first use in this function)
+   21 |   HAL_GPIO_WritePin(SEG_C_GPIO_Port , SEG_C_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/button.c:82:40: error: 'button3_GPIO_Port' undeclared (first use in this function)
+   82 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button3_GPIO_Port, button3_Pin);
+      |                                        ^~~~~~~~~~~~~~~~~
+../Core/Src/button.c:82:59: error: 'button3_Pin' undeclared (first use in this function)
+   82 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button3_GPIO_Port, button3_Pin);
+      |                                                           ^~~~~~~~~~~
+../Core/Src/global.c:22:21: error: 'SEG_D_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   22 |   HAL_GPIO_WritePin(SEG_D_GPIO_Port , SEG_D_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:22:39: error: 'SEG_D_Pin' undeclared (first use in this function)
+   22 |   HAL_GPIO_WritePin(SEG_D_GPIO_Port , SEG_D_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:43: Core/Src/button.o] Error 1
+../Core/Src/global.c:23:21: error: 'SEG_E_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   23 |   HAL_GPIO_WritePin(SEG_E_GPIO_Port , SEG_E_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:23:39: error: 'SEG_E_Pin' undeclared (first use in this function)
+   23 |   HAL_GPIO_WritePin(SEG_E_GPIO_Port , SEG_E_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c:24:21: error: 'SEG_F_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   24 |   HAL_GPIO_WritePin(SEG_F_GPIO_Port , SEG_F_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:24:39: error: 'SEG_F_Pin' undeclared (first use in this function)
+   24 |   HAL_GPIO_WritePin(SEG_F_GPIO_Port , SEG_F_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c:25:21: error: 'SEG_G_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   25 |   HAL_GPIO_WritePin(SEG_G_GPIO_Port , SEG_G_Pin, GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:25:39: error: 'SEG_G_Pin' undeclared (first use in this function)
+   25 |   HAL_GPIO_WritePin(SEG_G_GPIO_Port , SEG_G_Pin, GPIO_PIN_SET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c: In function 'displayNum':
+../Core/Src/global.c:126:21: error: 'EN0_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  126 |   HAL_GPIO_WritePin(EN0_GPIO_Port, EN0_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:126:36: error: 'EN0_Pin' undeclared (first use in this function)
+  126 |   HAL_GPIO_WritePin(EN0_GPIO_Port, EN0_Pin, GPIO_PIN_RESET);
+      |                                    ^~~~~~~
+../Core/Src/global.c:127:21: error: 'EN1_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  127 |   HAL_GPIO_WritePin(EN1_GPIO_Port , EN1_Pin , GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:127:37: error: 'EN1_Pin' undeclared (first use in this function)
+  127 |   HAL_GPIO_WritePin(EN1_GPIO_Port , EN1_Pin , GPIO_PIN_SET);
+      |                                     ^~~~~~~
+../Core/Src/global.c:128:21: error: 'EN2_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  128 |   HAL_GPIO_WritePin(EN2_GPIO_Port , EN2_Pin , GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:128:37: error: 'EN2_Pin' undeclared (first use in this function)
+  128 |   HAL_GPIO_WritePin(EN2_GPIO_Port , EN2_Pin , GPIO_PIN_SET);
+      |                                     ^~~~~~~
+../Core/Src/global.c:129:21: error: 'EN3_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  129 |   HAL_GPIO_WritePin(EN3_GPIO_Port , EN3_Pin , GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:129:37: error: 'EN3_Pin' undeclared (first use in this function)
+  129 |   HAL_GPIO_WritePin(EN3_GPIO_Port , EN3_Pin , GPIO_PIN_SET);
+      |                                     ^~~~~~~
+make: *** [Core/Src/subdir.mk:43: Core/Src/global.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+09:46:07 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/button.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/button.d" -MT"Core/Src/button.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/button.o"
+arm-none-eabi-gcc "../Core/Src/global.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/global.d" -MT"Core/Src/global.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/global.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:101:7: warning: unused variable 'counter' [-Wunused-variable]
+  101 |   int counter = 0;
+      |       ^~~~~~~
+../Core/Src/button.c: In function 'buttonReading':
+../Core/Src/global.c: In function 'display7SEG':
+../Core/Src/button.c:36:40: error: 'button1_GPIO_Port' undeclared (first use in this function)
+   36 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button1_GPIO_Port, button1_Pin);
+      |                                        ^~~~~~~~~~~~~~~~~
+../Core/Src/button.c:36:40: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/global.c:19:21: error: 'SEG_A_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   19 |   HAL_GPIO_WritePin(SEG_A_GPIO_Port , SEG_A_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:19:21: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/global.c:19:39: error: 'SEG_A_Pin' undeclared (first use in this function)
+   19 |   HAL_GPIO_WritePin(SEG_A_GPIO_Port , SEG_A_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/button.c:36:59: error: 'button1_Pin' undeclared (first use in this function)
+   36 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button1_GPIO_Port, button1_Pin);
+      |                                                           ^~~~~~~~~~~
+../Core/Src/global.c:20:21: error: 'SEG_B_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   20 |   HAL_GPIO_WritePin(SEG_B_GPIO_Port , SEG_B_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:20:39: error: 'SEG_B_Pin' undeclared (first use in this function)
+   20 |   HAL_GPIO_WritePin(SEG_B_GPIO_Port , SEG_B_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/button.c:59:40: error: 'button2_GPIO_Port' undeclared (first use in this function)
+   59 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button2_GPIO_Port, button2_Pin);
+      |                                        ^~~~~~~~~~~~~~~~~
+../Core/Src/button.c:59:59: error: 'button2_Pin' undeclared (first use in this function)
+   59 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button2_GPIO_Port, button2_Pin);
+      |                                                           ^~~~~~~~~~~
+../Core/Src/global.c:21:21: error: 'SEG_C_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   21 |   HAL_GPIO_WritePin(SEG_C_GPIO_Port , SEG_C_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:21:39: error: 'SEG_C_Pin' undeclared (first use in this function)
+   21 |   HAL_GPIO_WritePin(SEG_C_GPIO_Port , SEG_C_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/button.c:82:40: error: 'button3_GPIO_Port' undeclared (first use in this function)
+   82 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button3_GPIO_Port, button3_Pin);
+      |                                        ^~~~~~~~~~~~~~~~~
+../Core/Src/global.c:22:21: error: 'SEG_D_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   22 |   HAL_GPIO_WritePin(SEG_D_GPIO_Port , SEG_D_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/button.c:82:59: error: 'button3_Pin' undeclared (first use in this function)
+   82 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button3_GPIO_Port, button3_Pin);
+      |                                                           ^~~~~~~~~~~
+../Core/Src/global.c:22:39: error: 'SEG_D_Pin' undeclared (first use in this function)
+   22 |   HAL_GPIO_WritePin(SEG_D_GPIO_Port , SEG_D_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c:23:21: error: 'SEG_E_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   23 |   HAL_GPIO_WritePin(SEG_E_GPIO_Port , SEG_E_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+make: *** [Core/Src/subdir.mk:43: Core/Src/button.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/global.c:23:39: error: 'SEG_E_Pin' undeclared (first use in this function)
+   23 |   HAL_GPIO_WritePin(SEG_E_GPIO_Port , SEG_E_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c:24:21: error: 'SEG_F_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   24 |   HAL_GPIO_WritePin(SEG_F_GPIO_Port , SEG_F_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:24:39: error: 'SEG_F_Pin' undeclared (first use in this function)
+   24 |   HAL_GPIO_WritePin(SEG_F_GPIO_Port , SEG_F_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c:25:21: error: 'SEG_G_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   25 |   HAL_GPIO_WritePin(SEG_G_GPIO_Port , SEG_G_Pin, GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:25:39: error: 'SEG_G_Pin' undeclared (first use in this function)
+   25 |   HAL_GPIO_WritePin(SEG_G_GPIO_Port , SEG_G_Pin, GPIO_PIN_SET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c: In function 'displayNum':
+../Core/Src/global.c:126:21: error: 'EN0_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  126 |   HAL_GPIO_WritePin(EN0_GPIO_Port, EN0_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:126:36: error: 'EN0_Pin' undeclared (first use in this function)
+  126 |   HAL_GPIO_WritePin(EN0_GPIO_Port, EN0_Pin, GPIO_PIN_RESET);
+      |                                    ^~~~~~~
+../Core/Src/global.c:127:21: error: 'EN1_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  127 |   HAL_GPIO_WritePin(EN1_GPIO_Port , EN1_Pin , GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:127:37: error: 'EN1_Pin' undeclared (first use in this function)
+  127 |   HAL_GPIO_WritePin(EN1_GPIO_Port , EN1_Pin , GPIO_PIN_SET);
+      |                                     ^~~~~~~
+../Core/Src/global.c:128:21: error: 'EN2_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  128 |   HAL_GPIO_WritePin(EN2_GPIO_Port , EN2_Pin , GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:128:37: error: 'EN2_Pin' undeclared (first use in this function)
+  128 |   HAL_GPIO_WritePin(EN2_GPIO_Port , EN2_Pin , GPIO_PIN_SET);
+      |                                     ^~~~~~~
+../Core/Src/global.c:129:21: error: 'EN3_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  129 |   HAL_GPIO_WritePin(EN3_GPIO_Port , EN3_Pin , GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:129:37: error: 'EN3_Pin' undeclared (first use in this function)
+  129 |   HAL_GPIO_WritePin(EN3_GPIO_Port , EN3_Pin , GPIO_PIN_SET);
+      |                                     ^~~~~~~
+make: *** [Core/Src/subdir.mk:43: Core/Src/global.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+09:46:15 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/button.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/button.d" -MT"Core/Src/button.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/button.o"
+arm-none-eabi-gcc "../Core/Src/global.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/global.d" -MT"Core/Src/global.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/global.o"
+../Core/Src/global.c: In function 'display7SEG':
+../Core/Src/global.c:19:21: error: 'SEG_A_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   19 |   HAL_GPIO_WritePin(SEG_A_GPIO_Port , SEG_A_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:19:21: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/global.c:19:39: error: 'SEG_A_Pin' undeclared (first use in this function)
+   19 |   HAL_GPIO_WritePin(SEG_A_GPIO_Port , SEG_A_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/button.c: In function 'buttonReading':
+../Core/Src/button.c:36:40: error: 'button1_GPIO_Port' undeclared (first use in this function)
+   36 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button1_GPIO_Port, button1_Pin);
+      |                                        ^~~~~~~~~~~~~~~~~
+../Core/Src/button.c:36:40: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/button.c:36:59: error: 'button1_Pin' undeclared (first use in this function)
+   36 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button1_GPIO_Port, button1_Pin);
+      |                                                           ^~~~~~~~~~~
+../Core/Src/global.c:20:21: error: 'SEG_B_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   20 |   HAL_GPIO_WritePin(SEG_B_GPIO_Port , SEG_B_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:20:39: error: 'SEG_B_Pin' undeclared (first use in this function)
+   20 |   HAL_GPIO_WritePin(SEG_B_GPIO_Port , SEG_B_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/button.c:59:40: error: 'button2_GPIO_Port' undeclared (first use in this function)
+   59 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button2_GPIO_Port, button2_Pin);
+      |                                        ^~~~~~~~~~~~~~~~~
+../Core/Src/global.c:21:21: error: 'SEG_C_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   21 |   HAL_GPIO_WritePin(SEG_C_GPIO_Port , SEG_C_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:21:39: error: 'SEG_C_Pin' undeclared (first use in this function)
+   21 |   HAL_GPIO_WritePin(SEG_C_GPIO_Port , SEG_C_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/button.c:59:59: error: 'button2_Pin' undeclared (first use in this function)
+   59 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button2_GPIO_Port, button2_Pin);
+      |                                                           ^~~~~~~~~~~
+../Core/Src/global.c:22:21: error: 'SEG_D_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   22 |   HAL_GPIO_WritePin(SEG_D_GPIO_Port , SEG_D_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:22:39: error: 'SEG_D_Pin' undeclared (first use in this function)
+   22 |   HAL_GPIO_WritePin(SEG_D_GPIO_Port , SEG_D_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/button.c:82:40: error: 'button3_GPIO_Port' undeclared (first use in this function)
+   82 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button3_GPIO_Port, button3_Pin);
+      |                                        ^~~~~~~~~~~~~~~~~
+../Core/Src/button.c:82:59: error: 'button3_Pin' undeclared (first use in this function)
+   82 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button3_GPIO_Port, button3_Pin);
+      |                                                           ^~~~~~~~~~~
+../Core/Src/global.c:23:21: error: 'SEG_E_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   23 |   HAL_GPIO_WritePin(SEG_E_GPIO_Port , SEG_E_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:23:39: error: 'SEG_E_Pin' undeclared (first use in this function)
+   23 |   HAL_GPIO_WritePin(SEG_E_GPIO_Port , SEG_E_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:43: Core/Src/button.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/global.c:24:21: error: 'SEG_F_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   24 |   HAL_GPIO_WritePin(SEG_F_GPIO_Port , SEG_F_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:24:39: error: 'SEG_F_Pin' undeclared (first use in this function)
+   24 |   HAL_GPIO_WritePin(SEG_F_GPIO_Port , SEG_F_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c:25:21: error: 'SEG_G_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   25 |   HAL_GPIO_WritePin(SEG_G_GPIO_Port , SEG_G_Pin, GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:25:39: error: 'SEG_G_Pin' undeclared (first use in this function)
+   25 |   HAL_GPIO_WritePin(SEG_G_GPIO_Port , SEG_G_Pin, GPIO_PIN_SET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c: In function 'displayNum':
+../Core/Src/global.c:126:21: error: 'EN0_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  126 |   HAL_GPIO_WritePin(EN0_GPIO_Port, EN0_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:126:36: error: 'EN0_Pin' undeclared (first use in this function)
+  126 |   HAL_GPIO_WritePin(EN0_GPIO_Port, EN0_Pin, GPIO_PIN_RESET);
+      |                                    ^~~~~~~
+../Core/Src/global.c:127:21: error: 'EN1_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  127 |   HAL_GPIO_WritePin(EN1_GPIO_Port , EN1_Pin , GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:127:37: error: 'EN1_Pin' undeclared (first use in this function)
+  127 |   HAL_GPIO_WritePin(EN1_GPIO_Port , EN1_Pin , GPIO_PIN_SET);
+      |                                     ^~~~~~~
+../Core/Src/global.c:128:21: error: 'EN2_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  128 |   HAL_GPIO_WritePin(EN2_GPIO_Port , EN2_Pin , GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:128:37: error: 'EN2_Pin' undeclared (first use in this function)
+  128 |   HAL_GPIO_WritePin(EN2_GPIO_Port , EN2_Pin , GPIO_PIN_SET);
+      |                                     ^~~~~~~
+../Core/Src/global.c:129:21: error: 'EN3_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  129 |   HAL_GPIO_WritePin(EN3_GPIO_Port , EN3_Pin , GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:129:37: error: 'EN3_Pin' undeclared (first use in this function)
+  129 |   HAL_GPIO_WritePin(EN3_GPIO_Port , EN3_Pin , GPIO_PIN_SET);
+      |                                     ^~~~~~~
+make: *** [Core/Src/subdir.mk:43: Core/Src/global.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+09:46:45 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/button.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/button.d" -MT"Core/Src/button.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/button.o"
+arm-none-eabi-gcc "../Core/Src/global.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/global.d" -MT"Core/Src/global.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/global.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:100:7: warning: unused variable 'counter' [-Wunused-variable]
+  100 |   int counter = 0;
+      |       ^~~~~~~
+../Core/Src/button.c: In function 'buttonReading':
+../Core/Src/button.c:36:40: error: 'button1_GPIO_Port' undeclared (first use in this function)
+   36 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button1_GPIO_Port, button1_Pin);
+      |                                        ^~~~~~~~~~~~~~~~~
+../Core/Src/button.c:36:40: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/global.c: In function 'display7SEG':
+../Core/Src/global.c:19:21: error: 'SEG_A_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   19 |   HAL_GPIO_WritePin(SEG_A_GPIO_Port , SEG_A_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:19:21: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/global.c:19:39: error: 'SEG_A_Pin' undeclared (first use in this function)
+   19 |   HAL_GPIO_WritePin(SEG_A_GPIO_Port , SEG_A_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/button.c:36:59: error: 'button1_Pin' undeclared (first use in this function)
+   36 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button1_GPIO_Port, button1_Pin);
+      |                                                           ^~~~~~~~~~~
+../Core/Src/global.c:20:21: error: 'SEG_B_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   20 |   HAL_GPIO_WritePin(SEG_B_GPIO_Port , SEG_B_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:20:39: error: 'SEG_B_Pin' undeclared (first use in this function)
+   20 |   HAL_GPIO_WritePin(SEG_B_GPIO_Port , SEG_B_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/button.c:59:40: error: 'button2_GPIO_Port' undeclared (first use in this function)
+   59 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button2_GPIO_Port, button2_Pin);
+      |                                        ^~~~~~~~~~~~~~~~~
+../Core/Src/button.c:59:59: error: 'button2_Pin' undeclared (first use in this function)
+   59 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button2_GPIO_Port, button2_Pin);
+      |                                                           ^~~~~~~~~~~
+../Core/Src/global.c:21:21: error: 'SEG_C_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   21 |   HAL_GPIO_WritePin(SEG_C_GPIO_Port , SEG_C_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:21:39: error: 'SEG_C_Pin' undeclared (first use in this function)
+   21 |   HAL_GPIO_WritePin(SEG_C_GPIO_Port , SEG_C_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/button.c:82:40: error: 'button3_GPIO_Port' undeclared (first use in this function)
+   82 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button3_GPIO_Port, button3_Pin);
+      |                                        ^~~~~~~~~~~~~~~~~
+../Core/Src/button.c:82:59: error: 'button3_Pin' undeclared (first use in this function)
+   82 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button3_GPIO_Port, button3_Pin);
+      |                                                           ^~~~~~~~~~~
+../Core/Src/global.c:22:21: error: 'SEG_D_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   22 |   HAL_GPIO_WritePin(SEG_D_GPIO_Port , SEG_D_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:22:39: error: 'SEG_D_Pin' undeclared (first use in this function)
+   22 |   HAL_GPIO_WritePin(SEG_D_GPIO_Port , SEG_D_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:43: Core/Src/button.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/global.c:23:21: error: 'SEG_E_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   23 |   HAL_GPIO_WritePin(SEG_E_GPIO_Port , SEG_E_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:23:39: error: 'SEG_E_Pin' undeclared (first use in this function)
+   23 |   HAL_GPIO_WritePin(SEG_E_GPIO_Port , SEG_E_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c:24:21: error: 'SEG_F_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   24 |   HAL_GPIO_WritePin(SEG_F_GPIO_Port , SEG_F_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:24:39: error: 'SEG_F_Pin' undeclared (first use in this function)
+   24 |   HAL_GPIO_WritePin(SEG_F_GPIO_Port , SEG_F_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c:25:21: error: 'SEG_G_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   25 |   HAL_GPIO_WritePin(SEG_G_GPIO_Port , SEG_G_Pin, GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:25:39: error: 'SEG_G_Pin' undeclared (first use in this function)
+   25 |   HAL_GPIO_WritePin(SEG_G_GPIO_Port , SEG_G_Pin, GPIO_PIN_SET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c: In function 'displayNum':
+../Core/Src/global.c:126:21: error: 'EN0_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  126 |   HAL_GPIO_WritePin(EN0_GPIO_Port, EN0_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:126:36: error: 'EN0_Pin' undeclared (first use in this function)
+  126 |   HAL_GPIO_WritePin(EN0_GPIO_Port, EN0_Pin, GPIO_PIN_RESET);
+      |                                    ^~~~~~~
+../Core/Src/global.c:127:21: error: 'EN1_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  127 |   HAL_GPIO_WritePin(EN1_GPIO_Port , EN1_Pin , GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:127:37: error: 'EN1_Pin' undeclared (first use in this function)
+  127 |   HAL_GPIO_WritePin(EN1_GPIO_Port , EN1_Pin , GPIO_PIN_SET);
+      |                                     ^~~~~~~
+../Core/Src/global.c:128:21: error: 'EN2_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  128 |   HAL_GPIO_WritePin(EN2_GPIO_Port , EN2_Pin , GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:128:37: error: 'EN2_Pin' undeclared (first use in this function)
+  128 |   HAL_GPIO_WritePin(EN2_GPIO_Port , EN2_Pin , GPIO_PIN_SET);
+      |                                     ^~~~~~~
+../Core/Src/global.c:129:21: error: 'EN3_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  129 |   HAL_GPIO_WritePin(EN3_GPIO_Port , EN3_Pin , GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:129:37: error: 'EN3_Pin' undeclared (first use in this function)
+  129 |   HAL_GPIO_WritePin(EN3_GPIO_Port , EN3_Pin , GPIO_PIN_SET);
+      |                                     ^~~~~~~
+make: *** [Core/Src/subdir.mk:43: Core/Src/global.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+09:47:05 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/button.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/button.d" -MT"Core/Src/button.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/button.o"
+arm-none-eabi-gcc "../Core/Src/global.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/global.d" -MT"Core/Src/global.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/global.o"
+../Core/Src/global.c: In function 'display7SEG':
+../Core/Src/global.c:19:21: error: 'SEG_A_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   19 |   HAL_GPIO_WritePin(SEG_A_GPIO_Port , SEG_A_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:19:21: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/global.c:19:39: error: 'SEG_A_Pin' undeclared (first use in this function)
+   19 |   HAL_GPIO_WritePin(SEG_A_GPIO_Port , SEG_A_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/button.c: In function 'buttonReading':
+../Core/Src/button.c:36:40: error: 'button1_GPIO_Port' undeclared (first use in this function)
+   36 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button1_GPIO_Port, button1_Pin);
+      |                                        ^~~~~~~~~~~~~~~~~
+../Core/Src/button.c:36:40: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/button.c:36:59: error: 'button1_Pin' undeclared (first use in this function)
+   36 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button1_GPIO_Port, button1_Pin);
+      |                                                           ^~~~~~~~~~~
+../Core/Src/global.c:20:21: error: 'SEG_B_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   20 |   HAL_GPIO_WritePin(SEG_B_GPIO_Port , SEG_B_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:20:39: error: 'SEG_B_Pin' undeclared (first use in this function)
+   20 |   HAL_GPIO_WritePin(SEG_B_GPIO_Port , SEG_B_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/button.c:59:40: error: 'button2_GPIO_Port' undeclared (first use in this function)
+   59 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button2_GPIO_Port, button2_Pin);
+      |                                        ^~~~~~~~~~~~~~~~~
+../Core/Src/global.c:21:21: error: 'SEG_C_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   21 |   HAL_GPIO_WritePin(SEG_C_GPIO_Port , SEG_C_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/button.c:59:59: error: 'button2_Pin' undeclared (first use in this function)
+   59 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button2_GPIO_Port, button2_Pin);
+      |                                                           ^~~~~~~~~~~
+../Core/Src/global.c:21:39: error: 'SEG_C_Pin' undeclared (first use in this function)
+   21 |   HAL_GPIO_WritePin(SEG_C_GPIO_Port , SEG_C_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c:22:21: error: 'SEG_D_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   22 |   HAL_GPIO_WritePin(SEG_D_GPIO_Port , SEG_D_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:22:39: error: 'SEG_D_Pin' undeclared (first use in this function)
+   22 |   HAL_GPIO_WritePin(SEG_D_GPIO_Port , SEG_D_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/button.c:82:40: error: 'button3_GPIO_Port' undeclared (first use in this function)
+   82 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button3_GPIO_Port, button3_Pin);
+      |                                        ^~~~~~~~~~~~~~~~~
+../Core/Src/button.c:82:59: error: 'button3_Pin' undeclared (first use in this function)
+   82 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button3_GPIO_Port, button3_Pin);
+      |                                                           ^~~~~~~~~~~
+../Core/Src/global.c:23:21: error: 'SEG_E_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   23 |   HAL_GPIO_WritePin(SEG_E_GPIO_Port , SEG_E_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:23:39: error: 'SEG_E_Pin' undeclared (first use in this function)
+   23 |   HAL_GPIO_WritePin(SEG_E_GPIO_Port , SEG_E_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:43: Core/Src/button.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/global.c:24:21: error: 'SEG_F_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   24 |   HAL_GPIO_WritePin(SEG_F_GPIO_Port , SEG_F_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:24:39: error: 'SEG_F_Pin' undeclared (first use in this function)
+   24 |   HAL_GPIO_WritePin(SEG_F_GPIO_Port , SEG_F_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c:25:21: error: 'SEG_G_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   25 |   HAL_GPIO_WritePin(SEG_G_GPIO_Port , SEG_G_Pin, GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:25:39: error: 'SEG_G_Pin' undeclared (first use in this function)
+   25 |   HAL_GPIO_WritePin(SEG_G_GPIO_Port , SEG_G_Pin, GPIO_PIN_SET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c: In function 'displayNum':
+../Core/Src/global.c:126:21: error: 'EN0_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  126 |   HAL_GPIO_WritePin(EN0_GPIO_Port, EN0_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:126:36: error: 'EN0_Pin' undeclared (first use in this function)
+  126 |   HAL_GPIO_WritePin(EN0_GPIO_Port, EN0_Pin, GPIO_PIN_RESET);
+      |                                    ^~~~~~~
+../Core/Src/global.c:127:21: error: 'EN1_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  127 |   HAL_GPIO_WritePin(EN1_GPIO_Port , EN1_Pin , GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:127:37: error: 'EN1_Pin' undeclared (first use in this function)
+  127 |   HAL_GPIO_WritePin(EN1_GPIO_Port , EN1_Pin , GPIO_PIN_SET);
+      |                                     ^~~~~~~
+../Core/Src/global.c:128:21: error: 'EN2_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  128 |   HAL_GPIO_WritePin(EN2_GPIO_Port , EN2_Pin , GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:128:37: error: 'EN2_Pin' undeclared (first use in this function)
+  128 |   HAL_GPIO_WritePin(EN2_GPIO_Port , EN2_Pin , GPIO_PIN_SET);
+      |                                     ^~~~~~~
+../Core/Src/global.c:129:21: error: 'EN3_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  129 |   HAL_GPIO_WritePin(EN3_GPIO_Port , EN3_Pin , GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:129:37: error: 'EN3_Pin' undeclared (first use in this function)
+  129 |   HAL_GPIO_WritePin(EN3_GPIO_Port , EN3_Pin , GPIO_PIN_SET);
+      |                                     ^~~~~~~
+make: *** [Core/Src/subdir.mk:43: Core/Src/global.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+09:47:31 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/button.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/button.d" -MT"Core/Src/button.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/button.o"
+arm-none-eabi-gcc "../Core/Src/global.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/global.d" -MT"Core/Src/global.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/global.o"
+../Core/Src/global.c: In function 'display7SEG':
+../Core/Src/global.c:19:21: error: 'SEG_A_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   19 |   HAL_GPIO_WritePin(SEG_A_GPIO_Port , SEG_A_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:19:21: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/global.c:19:39: error: 'SEG_A_Pin' undeclared (first use in this function)
+   19 |   HAL_GPIO_WritePin(SEG_A_GPIO_Port , SEG_A_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/button.c: In function 'buttonReading':
+../Core/Src/button.c:36:40: error: 'button1_GPIO_Port' undeclared (first use in this function)
+   36 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button1_GPIO_Port, button1_Pin);
+      |                                        ^~~~~~~~~~~~~~~~~
+../Core/Src/button.c:36:40: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/button.c:36:59: error: 'button1_Pin' undeclared (first use in this function)
+   36 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button1_GPIO_Port, button1_Pin);
+      |                                                           ^~~~~~~~~~~
+../Core/Src/global.c:20:21: error: 'SEG_B_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   20 |   HAL_GPIO_WritePin(SEG_B_GPIO_Port , SEG_B_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:20:39: error: 'SEG_B_Pin' undeclared (first use in this function)
+   20 |   HAL_GPIO_WritePin(SEG_B_GPIO_Port , SEG_B_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/button.c:59:40: error: 'button2_GPIO_Port' undeclared (first use in this function)
+   59 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button2_GPIO_Port, button2_Pin);
+      |                                        ^~~~~~~~~~~~~~~~~
+../Core/Src/global.c:21:21: error: 'SEG_C_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   21 |   HAL_GPIO_WritePin(SEG_C_GPIO_Port , SEG_C_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/button.c:59:59: error: 'button2_Pin' undeclared (first use in this function)
+   59 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button2_GPIO_Port, button2_Pin);
+      |                                                           ^~~~~~~~~~~
+../Core/Src/global.c:21:39: error: 'SEG_C_Pin' undeclared (first use in this function)
+   21 |   HAL_GPIO_WritePin(SEG_C_GPIO_Port , SEG_C_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c:22:21: error: 'SEG_D_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   22 |   HAL_GPIO_WritePin(SEG_D_GPIO_Port , SEG_D_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:22:39: error: 'SEG_D_Pin' undeclared (first use in this function)
+   22 |   HAL_GPIO_WritePin(SEG_D_GPIO_Port , SEG_D_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/button.c:82:40: error: 'button3_GPIO_Port' undeclared (first use in this function)
+   82 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button3_GPIO_Port, button3_Pin);
+      |                                        ^~~~~~~~~~~~~~~~~
+../Core/Src/button.c:82:59: error: 'button3_Pin' undeclared (first use in this function)
+   82 |     buttonBuffer[i] = HAL_GPIO_ReadPin(button3_GPIO_Port, button3_Pin);
+      |                                                           ^~~~~~~~~~~
+../Core/Src/global.c:23:21: error: 'SEG_E_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   23 |   HAL_GPIO_WritePin(SEG_E_GPIO_Port , SEG_E_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:23:39: error: 'SEG_E_Pin' undeclared (first use in this function)
+   23 |   HAL_GPIO_WritePin(SEG_E_GPIO_Port , SEG_E_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:43: Core/Src/button.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/global.c:24:21: error: 'SEG_F_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   24 |   HAL_GPIO_WritePin(SEG_F_GPIO_Port , SEG_F_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:24:39: error: 'SEG_F_Pin' undeclared (first use in this function)
+   24 |   HAL_GPIO_WritePin(SEG_F_GPIO_Port , SEG_F_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c:25:21: error: 'SEG_G_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   25 |   HAL_GPIO_WritePin(SEG_G_GPIO_Port , SEG_G_Pin, GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:25:39: error: 'SEG_G_Pin' undeclared (first use in this function)
+   25 |   HAL_GPIO_WritePin(SEG_G_GPIO_Port , SEG_G_Pin, GPIO_PIN_SET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c: In function 'displayNum':
+../Core/Src/global.c:126:21: error: 'EN0_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  126 |   HAL_GPIO_WritePin(EN0_GPIO_Port, EN0_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:126:36: error: 'EN0_Pin' undeclared (first use in this function)
+  126 |   HAL_GPIO_WritePin(EN0_GPIO_Port, EN0_Pin, GPIO_PIN_RESET);
+      |                                    ^~~~~~~
+../Core/Src/global.c:127:21: error: 'EN1_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  127 |   HAL_GPIO_WritePin(EN1_GPIO_Port , EN1_Pin , GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:127:37: error: 'EN1_Pin' undeclared (first use in this function)
+  127 |   HAL_GPIO_WritePin(EN1_GPIO_Port , EN1_Pin , GPIO_PIN_SET);
+      |                                     ^~~~~~~
+../Core/Src/global.c:128:21: error: 'EN2_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  128 |   HAL_GPIO_WritePin(EN2_GPIO_Port , EN2_Pin , GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:128:37: error: 'EN2_Pin' undeclared (first use in this function)
+  128 |   HAL_GPIO_WritePin(EN2_GPIO_Port , EN2_Pin , GPIO_PIN_SET);
+      |                                     ^~~~~~~
+../Core/Src/global.c:129:21: error: 'EN3_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  129 |   HAL_GPIO_WritePin(EN3_GPIO_Port , EN3_Pin , GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:129:37: error: 'EN3_Pin' undeclared (first use in this function)
+  129 |   HAL_GPIO_WritePin(EN3_GPIO_Port , EN3_Pin , GPIO_PIN_SET);
+      |                                     ^~~~~~~
+make: *** [Core/Src/subdir.mk:43: Core/Src/global.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+09:48:51 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o"
+arm-none-eabi-gcc "../Core/Src/button.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/button.d" -MT"Core/Src/button.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/button.o"
+arm-none-eabi-gcc "../Core/Src/global.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/global.d" -MT"Core/Src/global.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/global.o"
+../Core/Src/global.c: In function 'display7SEG':
+../Core/Src/global.c:19:21: error: 'SEG_A_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   19 |   HAL_GPIO_WritePin(SEG_A_GPIO_Port , SEG_A_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:19:21: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/global.c:19:39: error: 'SEG_A_Pin' undeclared (first use in this function)
+   19 |   HAL_GPIO_WritePin(SEG_A_GPIO_Port , SEG_A_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c:20:21: error: 'SEG_B_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   20 |   HAL_GPIO_WritePin(SEG_B_GPIO_Port , SEG_B_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:20:39: error: 'SEG_B_Pin' undeclared (first use in this function)
+   20 |   HAL_GPIO_WritePin(SEG_B_GPIO_Port , SEG_B_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c:21:21: error: 'SEG_C_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   21 |   HAL_GPIO_WritePin(SEG_C_GPIO_Port , SEG_C_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:21:39: error: 'SEG_C_Pin' undeclared (first use in this function)
+   21 |   HAL_GPIO_WritePin(SEG_C_GPIO_Port , SEG_C_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c:22:21: error: 'SEG_D_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   22 |   HAL_GPIO_WritePin(SEG_D_GPIO_Port , SEG_D_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:22:39: error: 'SEG_D_Pin' undeclared (first use in this function)
+   22 |   HAL_GPIO_WritePin(SEG_D_GPIO_Port , SEG_D_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c:23:21: error: 'SEG_E_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   23 |   HAL_GPIO_WritePin(SEG_E_GPIO_Port , SEG_E_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:23:39: error: 'SEG_E_Pin' undeclared (first use in this function)
+   23 |   HAL_GPIO_WritePin(SEG_E_GPIO_Port , SEG_E_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c:24:21: error: 'SEG_F_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   24 |   HAL_GPIO_WritePin(SEG_F_GPIO_Port , SEG_F_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:24:39: error: 'SEG_F_Pin' undeclared (first use in this function)
+   24 |   HAL_GPIO_WritePin(SEG_F_GPIO_Port , SEG_F_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c:25:21: error: 'SEG_G_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+   25 |   HAL_GPIO_WritePin(SEG_G_GPIO_Port , SEG_G_Pin, GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:25:39: error: 'SEG_G_Pin' undeclared (first use in this function)
+   25 |   HAL_GPIO_WritePin(SEG_G_GPIO_Port , SEG_G_Pin, GPIO_PIN_SET);
+      |                                       ^~~~~~~~~
+../Core/Src/global.c: In function 'displayNum':
+../Core/Src/global.c:126:21: error: 'EN0_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  126 |   HAL_GPIO_WritePin(EN0_GPIO_Port, EN0_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:126:36: error: 'EN0_Pin' undeclared (first use in this function)
+  126 |   HAL_GPIO_WritePin(EN0_GPIO_Port, EN0_Pin, GPIO_PIN_RESET);
+      |                                    ^~~~~~~
+../Core/Src/global.c:127:21: error: 'EN1_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  127 |   HAL_GPIO_WritePin(EN1_GPIO_Port , EN1_Pin , GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:127:37: error: 'EN1_Pin' undeclared (first use in this function)
+  127 |   HAL_GPIO_WritePin(EN1_GPIO_Port , EN1_Pin , GPIO_PIN_SET);
+      |                                     ^~~~~~~
+../Core/Src/global.c:128:21: error: 'EN2_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  128 |   HAL_GPIO_WritePin(EN2_GPIO_Port , EN2_Pin , GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:128:37: error: 'EN2_Pin' undeclared (first use in this function)
+  128 |   HAL_GPIO_WritePin(EN2_GPIO_Port , EN2_Pin , GPIO_PIN_SET);
+      |                                     ^~~~~~~
+../Core/Src/global.c:129:21: error: 'EN3_GPIO_Port' undeclared (first use in this function); did you mean 'SWO_GPIO_Port'?
+  129 |   HAL_GPIO_WritePin(EN3_GPIO_Port , EN3_Pin , GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~
+      |                     SWO_GPIO_Port
+../Core/Src/global.c:129:37: error: 'EN3_Pin' undeclared (first use in this function)
+  129 |   HAL_GPIO_WritePin(EN3_GPIO_Port , EN3_Pin , GPIO_PIN_SET);
+      |                                     ^~~~~~~
+make: *** [Core/Src/subdir.mk:43: Core/Src/global.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+09:49:19 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/global.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/global.d" -MT"Core/Src/global.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/global.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32f1xx.d" -MT"Core/Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f1xx.o"
+arm-none-eabi-gcc "../Core/Src/time_set.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/time_set.d" -MT"Core/Src/time_set.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/time_set.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:100:7: warning: unused variable 'counter' [-Wunused-variable]
+  100 |   int counter = 0;
+      |       ^~~~~~~
+arm-none-eabi-gcc -o "Lab_ex.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32CubeIDE_1.7.0\Lab_ex\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab_ex.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab_ex.elf
+ 
+arm-none-eabi-size   Lab_ex.elf 
+arm-none-eabi-objdump -h -S  Lab_ex.elf  > "Lab_ex.list"
+arm-none-eabi-objcopy  -O ihex  Lab_ex.elf  "Lab_ex.hex"
+arm-none-eabi-objcopy  -O binary  Lab_ex.elf  "Lab_ex.bin"
+   text	   data	    bss	    dec	    hex	filename
+   8720	     20	   1796	  10536	   2928	Lab_ex.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab_ex.hex
+Finished building: Lab_ex.bin
+ 
+ 
+Finished building: Lab_ex.list
+ 
+09:49:27 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-size   Lab_ex.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8720	     20	   1796	  10536	   2928	Lab_ex.elf
+Finished building: default.size.stdout
+ 
+09:50:46 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:100:7: warning: unused variable 'counter' [-Wunused-variable]
+  100 |   int counter = 0;
+      |       ^~~~~~~
+arm-none-eabi-gcc -o "Lab_ex.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32CubeIDE_1.7.0\Lab_ex\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab_ex.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab_ex.elf
+ 
+arm-none-eabi-size   Lab_ex.elf 
+arm-none-eabi-objdump -h -S  Lab_ex.elf  > "Lab_ex.list"
+arm-none-eabi-objcopy  -O ihex  Lab_ex.elf  "Lab_ex.hex"
+   text	   data	    bss	    dec	    hex	filename
+   8720	     20	   1796	  10536	   2928	Lab_ex.elf
+arm-none-eabi-objcopy  -O binary  Lab_ex.elf  "Lab_ex.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab_ex.hex
+Finished building: Lab_ex.bin
+ 
+Finished building: Lab_ex.list
+ 
+ 
+09:52:30 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:100:7: warning: unused variable 'counter' [-Wunused-variable]
+  100 |   int counter = 0;
+      |       ^~~~~~~
+arm-none-eabi-gcc -o "Lab_ex.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32CubeIDE_1.7.0\Lab_ex\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab_ex.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab_ex.elf
+ 
+arm-none-eabi-size   Lab_ex.elf 
+arm-none-eabi-objdump -h -S  Lab_ex.elf  > "Lab_ex.list"
+arm-none-eabi-objcopy  -O ihex  Lab_ex.elf  "Lab_ex.hex"
+   text	   data	    bss	    dec	    hex	filename
+   8820	     36	   1796	  10652	   299c	Lab_ex.elf
+arm-none-eabi-objcopy  -O binary  Lab_ex.elf  "Lab_ex.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab_ex.hex
+Finished building: Lab_ex.bin
+ 
+ 
+Finished building: Lab_ex.list
+ 
+09:52:36 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-size   Lab_ex.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8820	     36	   1796	  10652	   299c	Lab_ex.elf
+Finished building: default.size.stdout
+ 
+09:57:36 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o"
+arm-none-eabi-gcc "../Core/Src/button.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/button.d" -MT"Core/Src/button.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/button.o"
+arm-none-eabi-gcc "../Core/Src/global.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/global.d" -MT"Core/Src/global.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/global.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32f1xx.d" -MT"Core/Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f1xx.o"
+arm-none-eabi-gcc "../Core/Src/time_set.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/time_set.d" -MT"Core/Src/time_set.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/time_set.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:100:7: warning: unused variable 'counter' [-Wunused-variable]
+  100 |   int counter = 0;
+      |       ^~~~~~~
+arm-none-eabi-gcc -o "Lab_ex.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32CubeIDE_1.7.0\Lab_ex\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab_ex.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab_ex.elf
+ 
+arm-none-eabi-size   Lab_ex.elf 
+arm-none-eabi-objdump -h -S  Lab_ex.elf  > "Lab_ex.list"
+arm-none-eabi-objcopy  -O ihex  Lab_ex.elf  "Lab_ex.hex"
+   text	   data	    bss	    dec	    hex	filename
+   8820	     36	   1796	  10652	   299c	Lab_ex.elf
+arm-none-eabi-objcopy  -O binary  Lab_ex.elf  "Lab_ex.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab_ex.hex
+Finished building: Lab_ex.bin
+ 
+Finished building: Lab_ex.list
+ 
+ 
+09:58:07 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-size   Lab_ex.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8820	     36	   1796	  10652	   299c	Lab_ex.elf
+Finished building: default.size.stdout
+ 
+09:58:31 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:100:7: warning: unused variable 'counter' [-Wunused-variable]
+  100 |   int counter = 0;
+      |       ^~~~~~~
+arm-none-eabi-gcc -o "Lab_ex.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32CubeIDE_1.7.0\Lab_ex\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab_ex.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab_ex.elf
+ 
+arm-none-eabi-size   Lab_ex.elf 
+arm-none-eabi-objdump -h -S  Lab_ex.elf  > "Lab_ex.list"
+arm-none-eabi-objcopy  -O ihex  Lab_ex.elf  "Lab_ex.hex"
+   text	   data	    bss	    dec	    hex	filename
+   8820	     36	   1796	  10652	   299c	Lab_ex.elf
+arm-none-eabi-objcopy  -O binary  Lab_ex.elf  "Lab_ex.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab_ex.hex
+Finished building: Lab_ex.bin
+ 
+Finished building: Lab_ex.list
+ 
+ 
+09:59:37 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab_ex.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32CubeIDE_1.7.0\Lab_ex\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab_ex.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab_ex.elf
+ 
+arm-none-eabi-size   Lab_ex.elf 
+arm-none-eabi-objdump -h -S  Lab_ex.elf  > "Lab_ex.list"
+arm-none-eabi-objcopy  -O ihex  Lab_ex.elf  "Lab_ex.hex"
+   text	   data	    bss	    dec	    hex	filename
+   8860	     36	   1804	  10700	   29cc	Lab_ex.elf
+arm-none-eabi-objcopy  -O binary  Lab_ex.elf  "Lab_ex.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab_ex.hex
+Finished building: Lab_ex.bin
+ 
+Finished building: Lab_ex.list
+ 
+ 
+09:59:50 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-size   Lab_ex.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8860	     36	   1804	  10700	   29cc	Lab_ex.elf
+Finished building: default.size.stdout
+ 
+10:00:04 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab_ex.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32CubeIDE_1.7.0\Lab_ex\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab_ex.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab_ex.elf
+ 
+arm-none-eabi-size   Lab_ex.elf 
+arm-none-eabi-objdump -h -S  Lab_ex.elf  > "Lab_ex.list"
+arm-none-eabi-objcopy  -O ihex  Lab_ex.elf  "Lab_ex.hex"
+   text	   data	    bss	    dec	    hex	filename
+   8860	     36	   1804	  10700	   29cc	Lab_ex.elf
+arm-none-eabi-objcopy  -O binary  Lab_ex.elf  "Lab_ex.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab_ex.hex
+Finished building: Lab_ex.bin
+ 
+Finished building: Lab_ex.list
+ 
+ 
+10:00:36 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab_ex.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32CubeIDE_1.7.0\Lab_ex\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab_ex.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab_ex.elf
+ 
+arm-none-eabi-size   Lab_ex.elf 
+arm-none-eabi-objdump -h -S  Lab_ex.elf  > "Lab_ex.list"
+arm-none-eabi-objcopy  -O ihex  Lab_ex.elf  "Lab_ex.hex"
+   text	   data	    bss	    dec	    hex	filename
+   8948	     36	   1804	  10788	   2a24	Lab_ex.elf
+arm-none-eabi-objcopy  -O binary  Lab_ex.elf  "Lab_ex.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab_ex.hex
+Finished building: Lab_ex.bin
+ 
+Finished building: Lab_ex.list
+ 
+ 
+10:00:40 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-size   Lab_ex.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8948	     36	   1804	  10788	   2a24	Lab_ex.elf
+Finished building: default.size.stdout
+ 
+10:01:58 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab_ex.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32CubeIDE_1.7.0\Lab_ex\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab_ex.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab_ex.elf
+ 
+arm-none-eabi-size   Lab_ex.elf 
+arm-none-eabi-objdump -h -S  Lab_ex.elf  > "Lab_ex.list"
+arm-none-eabi-objcopy  -O ihex  Lab_ex.elf  "Lab_ex.hex"
+   text	   data	    bss	    dec	    hex	filename
+   8948	     36	   1804	  10788	   2a24	Lab_ex.elf
+arm-none-eabi-objcopy  -O binary  Lab_ex.elf  "Lab_ex.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab_ex.hex
+Finished building: Lab_ex.bin
+ 
+ 
+Finished building: Lab_ex.list
+ 
+10:02:08 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab_ex.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32CubeIDE_1.7.0\Lab_ex\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab_ex.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab_ex.elf
+ 
+arm-none-eabi-size   Lab_ex.elf 
+arm-none-eabi-objdump -h -S  Lab_ex.elf  > "Lab_ex.list"
+arm-none-eabi-objcopy  -O ihex  Lab_ex.elf  "Lab_ex.hex"
+   text	   data	    bss	    dec	    hex	filename
+   8860	     36	   1804	  10700	   29cc	Lab_ex.elf
+arm-none-eabi-objcopy  -O binary  Lab_ex.elf  "Lab_ex.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab_ex.hex
+Finished building: Lab_ex.bin
+ 
+ 
+Finished building: Lab_ex.list
+ 
+10:02:14 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-size   Lab_ex.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8860	     36	   1804	  10700	   29cc	Lab_ex.elf
+Finished building: default.size.stdout
+ 
+10:04:33 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab_ex.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32CubeIDE_1.7.0\Lab_ex\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab_ex.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab_ex.elf
+ 
+arm-none-eabi-size   Lab_ex.elf 
+arm-none-eabi-objdump -h -S  Lab_ex.elf  > "Lab_ex.list"
+arm-none-eabi-objcopy  -O ihex  Lab_ex.elf  "Lab_ex.hex"
+   text	   data	    bss	    dec	    hex	filename
+   9040	     36	   1804	  10880	   2a80	Lab_ex.elf
+arm-none-eabi-objcopy  -O binary  Lab_ex.elf  "Lab_ex.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab_ex.hex
+Finished building: Lab_ex.bin
+ 
+ 
+Finished building: Lab_ex.list
+ 
+10:04:39 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-size   Lab_ex.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9040	     36	   1804	  10880	   2a80	Lab_ex.elf
+Finished building: default.size.stdout
+ 
+10:05:23 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab_ex.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32CubeIDE_1.7.0\Lab_ex\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab_ex.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab_ex.elf
+ 
+arm-none-eabi-size   Lab_ex.elf 
+arm-none-eabi-objdump -h -S  Lab_ex.elf  > "Lab_ex.list"
+arm-none-eabi-objcopy  -O ihex  Lab_ex.elf  "Lab_ex.hex"
+   text	   data	    bss	    dec	    hex	filename
+   9040	     36	   1804	  10880	   2a80	Lab_ex.elf
+arm-none-eabi-objcopy  -O binary  Lab_ex.elf  "Lab_ex.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab_ex.hex
+Finished building: Lab_ex.bin
+ 
+ 
+Finished building: Lab_ex.list
+ 
+10:05:31 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-size   Lab_ex.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9040	     36	   1804	  10880	   2a80	Lab_ex.elf
+Finished building: default.size.stdout
+ 
+10:06:55 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab_ex.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32CubeIDE_1.7.0\Lab_ex\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab_ex.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab_ex.elf
+ 
+arm-none-eabi-size   Lab_ex.elf 
+arm-none-eabi-objdump -h -S  Lab_ex.elf  > "Lab_ex.list"
+arm-none-eabi-objcopy  -O ihex  Lab_ex.elf  "Lab_ex.hex"
+   text	   data	    bss	    dec	    hex	filename
+   9040	     36	   1804	  10880	   2a80	Lab_ex.elf
+arm-none-eabi-objcopy  -O binary  Lab_ex.elf  "Lab_ex.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab_ex.hex
+Finished building: Lab_ex.bin
+ 
+Finished building: Lab_ex.list
+ 
+ 
+10:07:01 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-size   Lab_ex.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9040	     36	   1804	  10880	   2a80	Lab_ex.elf
+Finished building: default.size.stdout
+ 
+10:08:09 **** Incremental Build of configuration Debug for project Lab_ex ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab_ex.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32CubeIDE_1.7.0\Lab_ex\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab_ex.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab_ex.elf
+ 
+arm-none-eabi-size   Lab_ex.elf 
+arm-none-eabi-objdump -h -S  Lab_ex.elf  > "Lab_ex.list"
+arm-none-eabi-objcopy  -O ihex  Lab_ex.elf  "Lab_ex.hex"
+   text	   data	    bss	    dec	    hex	filename
+   9020	     36	   1804	  10860	   2a6c	Lab_ex.elf
+arm-none-eabi-objcopy  -O binary  Lab_ex.elf  "Lab_ex.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab_ex.hex
+Finished building: Lab_ex.bin
+ 
+Finished building: Lab_ex.list
+ 
+ 
+08:38:33 **** Build of configuration Debug for project Lab3 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab3.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Git\Github_folder\STM32_LAB03\Lab3\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab3.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab3.elf
+ 
+arm-none-eabi-size   Lab3.elf 
+arm-none-eabi-objdump -h -S  Lab3.elf  > "Lab3.list"
+arm-none-eabi-objcopy  -O ihex  Lab3.elf  "Lab3.hex"
+arm-none-eabi-objcopy  -O binary  Lab3.elf  "Lab3.bin"
+   text	   data	    bss	    dec	    hex	filename
+  11272	     76	   1748	  13096	   3328	Lab3.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab3.bin
+Finished building: Lab3.hex
+ 
+ 
+Finished building: Lab3.list
+ 
+08:40:43 **** Incremental Build of configuration Debug for project Lab3 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/global.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/global.d" -MT"Core/Src/global.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/global.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab3.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Git\Github_folder\STM32_LAB03\Lab3\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab3.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab3.elf
+ 
+arm-none-eabi-size   Lab3.elf 
+arm-none-eabi-objdump -h -S  Lab3.elf  > "Lab3.list"
+arm-none-eabi-objcopy  -O ihex  Lab3.elf  "Lab3.hex"
+   text	   data	    bss	    dec	    hex	filename
+  11320	     76	   1748	  13144	   3358	Lab3.elf
+arm-none-eabi-objcopy  -O binary  Lab3.elf  "Lab3.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab3.hex
+Finished building: Lab3.bin
+ 
+ 
+Finished building: Lab3.list
+ 
+08:40:57 **** Incremental Build of configuration Debug for project Lab3 ****
+make -j16 all 
+arm-none-eabi-size   Lab3.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11320	     76	   1748	  13144	   3358	Lab3.elf
+Finished building: default.size.stdout
+ 
